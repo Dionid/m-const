@@ -2,25 +2,25 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '27186a3a348c49b49fefc4700ab0f90d',
+  rootNotionPageId: '21c6337a007a45d0b1e4187a3df81c39',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '👨🏻 Давид Шекунц 👴🏿',
-  domain: 'about-me.davidshekunts.ru',
-  author: '👨🏻 David Shekunts 👴🏿',
+  name: 'Марьянна Константинова',
+  domain: 'psychologistbest.com',
+  author: 'Марьянна Константинова',
 
   // open graph metadata (optional)
-  description: '👨🏻 Давид Шекунц 👴🏿',
+  description: 'Марьянна Константинова',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
   // github: 'transitive-bullshit',
   // linkedin: 'fisch2',
-  telegram: 'it_kachalka',
+  telegram: 'Psychologist_Maryanna',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -44,7 +44,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': '27186a3a348c49b49fefc4700ab0f90d'
+    '/': '21c6337a007a45d0b1e4187a3df81c39'
   },
   // pageUrlOverrides: null,
 
